@@ -2,6 +2,8 @@
 
 > Combind Vue with VuePress 
 
+https://goo.gl/R5zF1Q
+
 ## Build Setup
 
 ``` bash
@@ -14,14 +16,14 @@ npm run dev
 # build for production with minification
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
 # start writing doc
 npm run docs:dev
 
 # build to static files
 npm run docs:build
+
+# build for production and view the bundle analyzer report
+npm run build --report
 
 ```
 

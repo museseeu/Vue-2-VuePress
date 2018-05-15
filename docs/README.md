@@ -2,6 +2,8 @@
 
 > Combind Vue with VuePress 
 
+https://goo.gl/R5zF1Q
+
 ## Build Setup
 
 ``` bash

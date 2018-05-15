@@ -1,4 +1,4 @@
-# Vue to VuePress 
+# VuePress Docs
 
 > Combind Vue with VuePress 
 
@@ -19,3 +19,39 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+## Render Component
+
+load vue component 
+
+example:
+
+<Btntype/>
+
+```vue
+<script>
+  import Btntype from '../src/components/Btntype'
+
+  export default {
+    name: 'Doc',
+    components: {
+      Btntype
+    }
+  }
+</script>  
+``` 
+
+<script>
+  import Btntype from '../src/components/Btntype'
+
+  export default {
+    name: 'Doc',
+    mounted () {
+    },
+    components: {
+      Btntype
+    }
+  }
+</script>
+
